@@ -17,17 +17,18 @@ h1, h2 ,h3, h4, h5, h6, p {
 img {
     display: block;
     text-align: center;
-    width: 50%;
+    width: 25%;
 }
 
 a {
     display: block;
     text-decoration: none;
+    color: white;
 }
 /* 3 types of font: bold, normal ,italic */
 
 #container{
-    background-color: #373f59;
+    background-color: #2e3447;
 }
 
 /* first area start */
@@ -35,8 +36,10 @@ a {
 #first {
     width: 70%;
     margin: auto;
+    padding-top: 0.3rem;
     padding-bottom: 3.5rem;
     height: 25%;
+    color: white;
 }
 
 #header {
@@ -53,10 +56,19 @@ a {
 
 #description {
     display: flex;
+    justify-content: space-between;
 }
 
 #usetext{
     width: 50%;
+}
+
+#topic {
+    font-size: 2.5rem;
+}
+
+#explain{
+    padding-bottom: 0.3rem;
 }
 
 /* first area end */
@@ -67,13 +79,15 @@ a {
     background-color: white;
     height: 25%;
     padding: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     
     background-color: white;
 }
 
 #content {
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 #informations{
@@ -90,6 +104,10 @@ a {
     font-size: 0.5rem;
 }
 
+.info {
+    font-size: 1rem;
+}
+
 .table {
     height: 70%;
     border-style:solid;
@@ -102,7 +120,7 @@ a {
 /* third area start */
 
 #third {
-    background-color: #d4d4d4;
+    background-color: #f0f0f0;
     height: 25%;
     padding: 3rem;
     padding-left: 6rem;
@@ -111,11 +129,15 @@ a {
 
 #quote {
     margin: auto;
-    width: 70%;
+    width: 60%;
+    font-size: 1.8rem;
+    font-style: italic;
 }
 
 #writer {
     text-align: right;
+    font-size: 24px;
+    font-weight:bold;
 }
 
 /* third area end */
@@ -134,6 +156,27 @@ a {
     justify-content: space-around;
     align-items: center;
     display: flex;
+}
+
+#promotion {
+    color: white;
+    font-size: 1rem;
+}
+
+#promo_topic {
+    font-size: 1.4rem;
+}
+
+.signup {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15%;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #3882F6;
+    width: 5rem;
+    padding: 0.25rem;
 }
 
 /* fourth area end */
